@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../images/p10.jpeg);
+    background-size:  100% 100%;
+    background-attachment: fixed;  
+}
+.mynav{
+    background: linear-gradient(to left, #222, #ddd, #222);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+.mynav .navbar-brand{
+    color: white;
+}
+.mynav .collapse .navbar-nav .nav-item .nav-link{
+    padding: 10px 20px !important;
+    
+}
+.mynav .collapse ul li a{
+    color: white;
+}
+.mynav .collapse .navbar-nav .nav-item .nav-link:hover{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+.sec3{
+    padding: 100px 0px; 
+    width: 80%;
+    margin: auto;
+}
+.sec3 div h1{
+    text-align: center;
+    color: white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 20px;
+    width: 30%;
+    margin: auto;
+}
+.border{
+    width: 30%;
+    margin: auto;
+    margin-top: 5px;
+
+}
+.sec3 .caption {
+    width: 100%;
+    display: flex;
+    margin-top: 48px;
+}
+.sec3 .caption div{
+    width: 50%;
+}
+.sec3 .caption div img{
+    width: 100%;
+}
+.sec3 .caption div p{
+    margin-top: 90px;
+    padding: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px grey;
+    color: white;
+
+}
+
+.sec4{
+    padding: 100px 0px;
+    background-image: url(../images/p7.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.sec4 div h1{
+    text-align: center;
+    color: white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 20px;
+    width: 30%;
+    margin: auto;
+}
+.sec4 .cards{
+    width: 80%;
+    margin: auto;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sec4 .cards .card{
+    width: 31%;
+    border-color: #333;
+    background-color: #333;
+}
+#text{
+    color: white;
+}
+
+.sec51{
+    padding: 100px 0px;
+    background-image: url(../images/p9.webp);
+    background-size:  100% 100%;
+    background-attachment: fixed;
+}
+.sec51 div h1{
+    text-align: center;
+    color: white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 20px;
+    width: 30%;
+    margin: auto;
+}
+.sec51 .container{
+    width: 80%;
+    margin: auto;
+    margin-top: 48px;
+    display: flex;
+}
+.sec51 .container .container2{
+    width: 25%;
+}
+.sec51 .container .container2 img{
+    width: 100%;
+    border: white solid 2px;
+    border-radius: 5px;
+}
+#white{
+    color: white;
+}
+.sec51 .container .container3{
+    width: 75%;
+}
+.sec51 .container .container3 div{
+    width: 100%;
+}
+.sec51 .container .container3 div h4{
+   margin-left: 30px;
+   width: 100%;
+}
+.sec51 .container .container3 .frogs{
+    display: flex;
+    margin-top: 48px;
+    margin-left: 30px;
+}
+.frog{
+    font-size: 35px;
+    margin: auto;
+    color: white;
+    transition: all .5s;
+}
+.frog:hover{
+    transform: rotate(360deg) translatey(-30px);
+    color: darkred;
+    font-size: 35px;
+}
+.frogdad{
+    text-align: center;
+}
+.sec6{
+    padding: 100px 0px;
+
+}
+.sec6 div h1{
+    text-align: center;
+    color: white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 20px;
+    width: 30%;
+    margin: auto;
+}
+
+.sec6 .navbar{
+    width: 40%;
+    margin: 40px auto;
+    border-radius: 20px;
+   background-color: white;
+   text-align: center;
+}
+.sec6 .navbar .collapse{
+}
+.sec6 .navbar .collapse ul{
+   width: 100%;
+   justify-content: space-around !important;
+}
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.pics div{
+    width: 31%;
+    margin: auto;
+    border: white solid 1px;
+    margin-bottom: 20px;
+}
+.pics div img{
+    width: 100%;
+    
+}
+@media(max-width:750px) {
+    .sec3{
+        width: 100%;
+
+    }
+    .sec3 div h1{
+        width: 75%;
+    }
+    .border{
+        width: 75%;
+    }
+    .sec3 .caption{
+        display: block;
+    }
+    .sec3 .caption div{
+        width: 100%;
+        margin: auto;
+    }
+    .sec3 .caption div p{
+        padding: 20px;
+    }
+    .sec4 div h1{
+        width: 75%;
+    }
+    .sec4 .cards{
+        width: 100%;
+        display: block;
+        
+    }
+    .sec4 .cards .card{
+        width: 75%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .sec5 .sec51 div h1{
+        width: 75%;
+    }
+    .sec5 .sec51 .container{
+        display: block;
+    }
+    .sec5 .sec51 .container .container2{
+        width: 100%;
+    }
+    .sec5 .sec51 .container .container3{
+        width:100%;
+        
+    }
+    .sec5 .sec51 .container .container3 .aha h4{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .sec5 .sec51 .container .container3 .frogs{
+        display: block;
+        margin-left: 0px;
+    }
+    .sec6 div{
+        width: 75%;
+        margin: auto;
+    }
+    .sec6 div h1{
+        width: 100%;
+    }
+    .sec6 .navbar{
+        width: 90%;
+        height: 45px;
+    }
+    .sec6 .navbar .collapse ul li {
+        color: black;
+    }
+    .pics{
+        width: 100%;
+    }
+    .pics div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
